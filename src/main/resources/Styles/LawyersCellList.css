@@ -1,0 +1,29 @@
+.cell_container {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(three-pass-box, #DDDDDD, 5, 0, 0, 7);
+}
+.icon_container {
+    -fx-background-color: #FFFFFF;
+    -fx-alignment: center;
+    -fx-spacing: 5;
+    -fx-fill: #23262d;
+}
+.cell_container Label {
+    -fx-text-fill: #000000;
+    -fx-font-weight: 700;
+}
+.cell_container Button {
+    -fx-background-color: #23262d;
+    -fx-text-fill: #FFFFFF;
+    -fx-pref-width: 70;
+    -fx-pref-height: 30;
+    -fx-font-size: 1.2em;
+}
+.cell_container Button:hover {
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.4), 5, 0.0, 0, 2);
+}
+.cell_container Button FontAwesomeIconView {
+    -fx-fill: #FFFFFF;
+}

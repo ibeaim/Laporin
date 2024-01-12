@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="640.0" prefWidth="844.0" styleClass="create_user_container"
+            stylesheets="@../../Styles/CreateUsers.css" xmlns="http://javafx.com/javafx/21"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.tubes.laporin.Controllers.Lawyer.CreateUsersController">
+   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Create New User Account" AnchorPane.leftAnchor="14.0"
+         AnchorPane.topAnchor="14.0"/>
+   <VBox layoutX="9.0" layoutY="59.0" prefHeight="570.0" prefWidth="600.0" AnchorPane.bottomAnchor="14.0"
+         AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="40.0">
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="First Name :"/>
+      <TextField fx:id="fName_fld" promptText="First Name"/>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Last Name : "/>
+      <TextField fx:id="lName_fld" promptText="Last Name"/>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Username :"/>
+      <TextField fx:id="uName_fld" promptText="Username"/>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Password"/>
+      <TextField fx:id="pwd_fld" promptText="Password"/>
+      <Button fx:id="create_btn" mnemonicParsing="false" text="Create New User"/>
+   </VBox>
+</AnchorPane>

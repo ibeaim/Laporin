@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.control.ListView?>
+<AnchorPane prefHeight="640.0" prefWidth="844.0" styleClass="users_container" stylesheets="@../../Styles/Users.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tubes.laporin.Controllers.Lawyer.LawyersController">
+    <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="section_title" text="All Lawyers" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0" />
+    <ListView fx:id="lawyers_listView" layoutX="48.0" layoutY="131.0" prefHeight="500.0" prefWidth="550.0" styleClass="lawyers_listview" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="50.0" />
+</AnchorPane>

@@ -1,0 +1,71 @@
+.login_container {
+    -fx-background-color: #23262d;
+    -fx-font-family:  'Montserrat', sans-serif;
+    -fx-font-weight: bold;
+}
+
+.login_container Text {
+    -fx-font-size: 5em;
+    -fx-fill: #8c949e;
+}
+
+.selamatDatang {
+    -fx-font-size: 2em;
+    -fx-fill: #8c949e;
+}
+
+.textWelcomeContainer {
+    -fx-background-color:  #d9d9d9;
+    -fx-background-radius: 40 0 0 40;
+    -fx-border-color: none;
+}
+.textWelcomeContainer Text{
+    -fx-font-size: 4em;
+    -fx-fill: #23262d;
+}
+.textWelcomeContainer Button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #007bff;
+    -fx-border-width: 0;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+.textWelcomeContainer Button:hover {
+    -fx-text-fill: #0056b3;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.4), 5, 0.0, 0, 1);
+}
+
+#registerTitle{
+    -fx-font-size: 2em;
+}
+#loginTitle{
+    -fx-font-size: 2em;
+}
+.textFormContainer {
+    -fx-background-color:  #d9d9d9;
+    -fx-background-radius: 40 40 40 0;
+    -fx-border-color: none;
+}
+.textFormContainer Text {
+    -fx-font-size: 1em;
+    -fx-fill: #23262d;
+}
+.textFormContainer TextField {
+    -fx-font-size: 1em;
+    -fx-font-weight: normal;
+}
+.textFormContainer PasswordField {
+    -fx-font-size: 1em;
+    -fx-font-weight: normal;
+}
+.textFormContainer Button {
+    -fx-background-color: #23262d;
+    -fx-text-fill: #FFFFFF;
+    -fx-pref-width: 150;
+    -fx-pref-height: 30;
+    -fx-font-size: 1.2em;
+}
+.textFormContainer Button:hover {
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.4), 5, 0.0, 0, 2);
+}
